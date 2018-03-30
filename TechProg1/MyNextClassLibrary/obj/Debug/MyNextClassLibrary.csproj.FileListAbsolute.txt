@@ -1,0 +1,5 @@
+D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\bin\Debug\MyNextClassLibrary.dll
+D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\bin\Debug\MyNextClassLibrary.pdb
+D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.csproj.CoreCompileInputs.cache
+D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.dll
+D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.pdb

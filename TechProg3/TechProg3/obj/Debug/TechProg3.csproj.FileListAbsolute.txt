@@ -1,0 +1,10 @@
+D:\Проекты Visual Studio\TechProg3\TechProg3\bin\Debug\TechProg3.exe.config
+D:\Проекты Visual Studio\TechProg3\TechProg3\bin\Debug\TechProg3.exe
+D:\Проекты Visual Studio\TechProg3\TechProg3\bin\Debug\TechProg3.pdb
+D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.csprojResolveAssemblyReference.cache
+D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.Form1.resources
+D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.Properties.Resources.resources
+D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.csproj.GenerateResource.Cache
+D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.csproj.CoreCompileInputs.cache
+D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.exe
+D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.pdb

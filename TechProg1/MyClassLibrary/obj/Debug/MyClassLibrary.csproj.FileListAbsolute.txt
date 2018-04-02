@@ -4,3 +4,9 @@ D:\Проекты Visual Studio\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrar
 D:\Проекты Visual Studio\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
 D:\Проекты Visual Studio\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrary.dll
 D:\Проекты Visual Studio\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+D:\techprogs\TechProg1\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+D:\techprogs\TechProg1\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+D:\techprogs\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+D:\techprogs\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
+D:\techprogs\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+D:\techprogs\TechProg1\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

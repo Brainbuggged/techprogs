@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace MynameSpace
 {
-    class Class2
+    internal class Class2
     {
-        public string Func2()
-        {
-            return "Пупа Ппыпа, ИСБО-11-16, Func2";
-
-        }
+        public string Func2() => "Пупа Ппыпа, ИСБО-11-16, Func2";
     }
 }

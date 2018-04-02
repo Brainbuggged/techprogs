@@ -12,3 +12,17 @@ D:\Проекты Visual Studio\TechProg1\TechProg1\obj\Debug\TechProg1.exe
 D:\Проекты Visual Studio\TechProg1\TechProg1\obj\Debug\TechProg1.pdb
 D:\Проекты Visual Studio\TechProg1\TechProg1\bin\Debug\MyNextClassLibrary.dll
 D:\Проекты Visual Studio\TechProg1\TechProg1\bin\Debug\MyNextClassLibrary.pdb
+D:\techprogs\TechProg1\TechProg1\bin\Debug\TechProg1.exe.config
+D:\techprogs\TechProg1\TechProg1\bin\Debug\TechProg1.exe
+D:\techprogs\TechProg1\TechProg1\bin\Debug\TechProg1.pdb
+D:\techprogs\TechProg1\TechProg1\bin\Debug\MyClassLibrary.dll
+D:\techprogs\TechProg1\TechProg1\bin\Debug\MyNextClassLibrary.dll
+D:\techprogs\TechProg1\TechProg1\bin\Debug\MyClassLibrary.pdb
+D:\techprogs\TechProg1\TechProg1\bin\Debug\MyNextClassLibrary.pdb
+D:\techprogs\TechProg1\TechProg1\obj\Debug\TechProg1.csprojResolveAssemblyReference.cache
+D:\techprogs\TechProg1\TechProg1\obj\Debug\TechProg1.Form1.resources
+D:\techprogs\TechProg1\TechProg1\obj\Debug\TechProg1.Properties.Resources.resources
+D:\techprogs\TechProg1\TechProg1\obj\Debug\TechProg1.csproj.GenerateResource.Cache
+D:\techprogs\TechProg1\TechProg1\obj\Debug\TechProg1.csproj.CoreCompileInputs.cache
+D:\techprogs\TechProg1\TechProg1\obj\Debug\TechProg1.exe
+D:\techprogs\TechProg1\TechProg1\obj\Debug\TechProg1.pdb

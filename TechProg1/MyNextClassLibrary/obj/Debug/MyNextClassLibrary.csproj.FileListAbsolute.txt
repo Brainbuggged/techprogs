@@ -3,3 +3,9 @@ D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\bin\Debug\MyNextCla
 D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.csproj.CoreCompileInputs.cache
 D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.dll
 D:\Проекты Visual Studio\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.pdb
+D:\techprogs\TechProg1\MyNextClassLibrary\bin\Debug\MyNextClassLibrary.dll
+D:\techprogs\TechProg1\MyNextClassLibrary\bin\Debug\MyNextClassLibrary.pdb
+D:\techprogs\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.csprojResolveAssemblyReference.cache
+D:\techprogs\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.csproj.CoreCompileInputs.cache
+D:\techprogs\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.dll
+D:\techprogs\TechProg1\MyNextClassLibrary\obj\Debug\MyNextClassLibrary.pdb

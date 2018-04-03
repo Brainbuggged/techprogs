@@ -1,0 +1,14 @@
+D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.csproj.CoreCompileInputs.cache
+D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/bin/Debug/MyOwnThreads.exe.config
+D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/bin/Debug/MyOwnThreads.exe
+D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/bin/Debug/MyOwnThreads.pdb
+D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.exe
+D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.pdb
+D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.csprojResolveAssemblyReference.cache
+/home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/bin/Debug/MyOwnThreads.exe.config
+/home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/bin/Debug/MyOwnThreads.exe
+/home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/bin/Debug/MyOwnThreads.pdb
+/home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.csprojResolveAssemblyReference.cache
+/home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.csproj.CoreCompileInputs.cache
+/home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.exe
+/home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.pdb

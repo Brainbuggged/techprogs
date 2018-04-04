@@ -16,6 +16,7 @@ namespace MyOwnThreads
         bool _doneAlready = false;
         bool _firstisbad = false;
        static Random rnd = new Random(); 
+      public  static Semaphore sem;
         static void Main(string[] args)
         {
             var pr = new Program();
@@ -31,6 +32,7 @@ namespace MyOwnThreads
         _doneAlready = true;
             
             }
+            sem = new Semaphore(numThreads,numThreads);
             for (var i = 0; i < numThreads; i++)
             {
                 if (!_firstisbad)
@@ -99,9 +101,9 @@ namespace MyOwnThreads
         {
                 UseResource();
         }
-        private static void UseResource()
+        public static void UseResource()
         {
-           
+            sem.WaitOne();
             if (!isFinished)
             {
                 var time = rnd.Next(1000, 5000);
@@ -116,6 +118,8 @@ namespace MyOwnThreads
                 Console.WriteLine("{0} завершил  свою работу за {1}",
                     Thread.CurrentThread.Name, time);
             }
+
+            sem.Release();
         }
         ~Program()
         {

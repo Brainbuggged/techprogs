@@ -12,3 +12,10 @@ D:/Проекты Visual Studio/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads
 /home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.csproj.CoreCompileInputs.cache
 /home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.exe
 /home/brainbugged/Загрузки/MyOwnThreads/MyOwnThreads/obj/Debug/MyOwnThreads.pdb
+C:\Users\User\Desktop\Techs\MyOwnThreads\MyOwnThreads\bin\Debug\MyOwnThreads.exe.config
+C:\Users\User\Desktop\Techs\MyOwnThreads\MyOwnThreads\bin\Debug\MyOwnThreads.exe
+C:\Users\User\Desktop\Techs\MyOwnThreads\MyOwnThreads\bin\Debug\MyOwnThreads.pdb
+C:\Users\User\Desktop\Techs\MyOwnThreads\MyOwnThreads\obj\Debug\MyOwnThreads.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Techs\MyOwnThreads\MyOwnThreads\obj\Debug\MyOwnThreads.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Techs\MyOwnThreads\MyOwnThreads\obj\Debug\MyOwnThreads.exe
+C:\Users\User\Desktop\Techs\MyOwnThreads\MyOwnThreads\obj\Debug\MyOwnThreads.pdb

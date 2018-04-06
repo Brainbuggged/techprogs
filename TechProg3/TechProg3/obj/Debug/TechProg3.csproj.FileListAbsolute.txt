@@ -8,3 +8,13 @@ D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.csproj.G
 D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.csproj.CoreCompileInputs.cache
 D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.exe
 D:\Проекты Visual Studio\TechProg3\TechProg3\obj\Debug\TechProg3.pdb
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\bin\Debug\TechProg3.exe.config
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\bin\Debug\TechProg3.exe
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\bin\Debug\TechProg3.pdb
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\obj\Debug\TechProg3.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\obj\Debug\TechProg3.Form1.resources
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\obj\Debug\TechProg3.Properties.Resources.resources
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\obj\Debug\TechProg3.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\obj\Debug\TechProg3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\obj\Debug\TechProg3.exe
+C:\Users\User\Desktop\Techs\TechProg3\TechProg3\obj\Debug\TechProg3.pdb

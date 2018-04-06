@@ -17,19 +17,13 @@ namespace TechProg3
         {
             InitializeComponent();
         }
-        public delegate void Del(string message);
 
-        static void DelegateMethod(string message)
-        {
-            Console.WriteLine(message);
-        }
+
 
         void DumpObject(object obj)
         {
-          
+
             var obj_type = obj.GetType();
-
-
             richTextBox2.AppendText("================"
                 + obj_type.Name + "===============\r\n");
             richTextBox2.AppendText("ASSEMBLY NAME: " + obj_type.Assembly.GetName().Name + "\r\n");
@@ -48,7 +42,7 @@ namespace TechProg3
 
             var fields = obj_type.GetFields(BindingFlags.Public | BindingFlags.Instance
                                                                         | BindingFlags.Static);
-            foreach (FieldInfo field in fields )
+            foreach (var field in fields)
             {
                 richTextBox2.AppendText((field.IsPublic ? "public " : "") + (field.IsAssembly ? "internal " : "") +
                                         (field.IsFamily ? "protected " : "") + (field.IsStatic ? "static " : "") +
@@ -102,7 +96,7 @@ namespace TechProg3
                 if (method.IsVirtual)
                 {
                     richTextBox2.AppendText("  Defined in: " + method.DeclaringType.Name + "\r\n");
-                    richTextBox2.AppendText("  Created in: " + method.GetBaseDefinition().DeclaringType.Name +
+                    richTextBox2.AppendText("  Created in: " + method.GetBaseDefinition().DeclaringType?.Name +
                                             "\r\n");
                 }
             }
@@ -111,10 +105,10 @@ namespace TechProg3
             richTextBox2.AppendText("PRIVATE INTERFACE:\r\n");
             richTextBox2.AppendText("FIELDS:\r\n");
 
-            FieldInfo[] fields1 = obj_type.GetFields(BindingFlags.Instance | BindingFlags.DeclaredOnly
+            var fields1 = obj_type.GetFields(BindingFlags.Instance | BindingFlags.DeclaredOnly
                                                                            | BindingFlags.NonPublic |
                                                                            BindingFlags.Static);
-            foreach (FieldInfo field in fields1)
+            foreach (var field in fields1)
                 richTextBox2.AppendText((field.IsPrivate ? "private " : "") +
                                         (field.IsAssembly ? "internal " : "") +
                                         (field.IsFamily ? "protected " : "") + (field.IsStatic ? "static " : "") +
@@ -126,7 +120,7 @@ namespace TechProg3
 
             var properties1 = obj_type.GetProperties(BindingFlags.Instance | BindingFlags.DeclaredOnly |
                                                      BindingFlags.NonPublic | BindingFlags.Static);
-            foreach (PropertyInfo property in properties1)
+            foreach (var property in properties1)
             {
                 var getMeth = property.GetGetMethod(true);
                 var setMeth = property.GetSetMethod(true);
@@ -165,11 +159,11 @@ namespace TechProg3
 
             richTextBox2.AppendText("METHODS:\r\n");
 
-            MethodInfo[] methods1 = obj_type.GetMethods(BindingFlags.Instance | BindingFlags.DeclaredOnly
+            var methods1 = obj_type.GetMethods(BindingFlags.Instance | BindingFlags.DeclaredOnly
                                                                               | BindingFlags.NonPublic |
                                                                               BindingFlags.Static
             );
-            foreach (MethodInfo method in methods1)
+            foreach (var method in methods1)
             {
                 string m;
                 m = (method.IsPrivate ? "private " : "") + (method.IsAssembly ? "internal " : "") +
@@ -180,7 +174,7 @@ namespace TechProg3
                                                                                        " " + param.Name + ", "));
                 m += ")\r\n";
 
-                if (method.IsVirtual && method.GetBaseDefinition().DeclaringType.Name != obj_type.Name)
+                if (method.IsVirtual && method.GetBaseDefinition().DeclaringType?.Name != obj_type.Name)
                 {
                     richTextBox2.SelectionColor = Color.Yellow;
                 }
@@ -199,7 +193,7 @@ namespace TechProg3
                 if (method.IsVirtual)
                 {
                     richTextBox2.AppendText("  Defined in: " + method.DeclaringType.Name + "\r\n");
-                    richTextBox2.AppendText("  Created in: " + method.GetBaseDefinition().DeclaringType.Name +
+                    richTextBox2.AppendText("  Created in: " + method.GetBaseDefinition().DeclaringType?.Name +
                                             "\r\n");
                 }
             }
@@ -249,12 +243,7 @@ namespace TechProg3
             DumpObject(new RTTIClass22());
         }
 
-        private class RTTIClass11 : RTTIClass1
-        {
-            internal float D;
-            private float PropD { get { return D; } }
-            internal new void DoIt() { }
-        }
+      
     }
 }
 

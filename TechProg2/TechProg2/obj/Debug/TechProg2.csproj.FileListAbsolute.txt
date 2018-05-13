@@ -14,3 +14,20 @@ D:\Проекты Visual Studio\TechProg2\TechProg2\bin\Debug\AxInterop.Shockwav
 D:\Проекты Visual Studio\TechProg2\TechProg2\obj\Debug\Interop.ShockwaveFlashObjects.dll
 D:\Проекты Visual Studio\TechProg2\TechProg2\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
 D:\Проекты Visual Studio\TechProg2\TechProg2\obj\Debug\TechProg2.csproj.ResolveComReference.cache
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\bin\Debug\TechProg2.exe.config
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\bin\Debug\TechProg2.exe
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\bin\Debug\TechProg2.pdb
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.csproj.ResolveComReference.cache
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.Form1.resources
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.Properties.Resources.resources
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.csproj.GenerateResource.cache
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.csproj.CopyComplete
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.exe
+C:\Users\User\Documents\techprogs\TechProg2\TechProg2\obj\Debug\TechProg2.pdb

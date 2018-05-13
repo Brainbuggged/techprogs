@@ -12,32 +12,22 @@ using System.Windows.Forms;
 using TPLab2;
 
 
-
 namespace TechProg2
 {
     public partial class Form1 : Form, IOleClientSite, IOleInPlaceSite
     {
-        tagRECT NewRect = new tagRECT(100, 100, 100, 100);
-        tagRECT New = new tagRECT(0, 0, 500, 400);
+
+
+        readonly tagRECT myRect = new tagRECT(0, 0, 500, 400);
         public Form1()
         {
-           OLE.CoInitializeEx(IntPtr.Zero, 2);
-            
+            OLE.CoInitializeEx(IntPtr.Zero, 2);
             InitializeComponent();
-
-
-
             axShockwaveFlash1.Movie = Application.StartupPath + @"\tuma.swf";
-
-
-
         }
-        
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-
             object browser = OLE.CoCreateInstance(OLE.CLASS_WEBBROWSER, null,
                   OLE.CLSCTX.CLSCTX_INPROC_SERVER,
                   OLE.IID_IWebBrowser2);
@@ -49,11 +39,6 @@ namespace TechProg2
                 );
             IWebBrowser2 brow = browser as IWebBrowser2;
             (brow as IWebBrowser2).Navigate("http://ya.ru", null, null, null, null);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
         }
 
         [return: MarshalAs(UnmanagedType.I4)]
@@ -124,14 +109,14 @@ namespace TechProg2
         {
             return HRESULT.S_OK;
         }
+
         [return: MarshalAs(UnmanagedType.I4)]
         public int GetWindowContext([MarshalAs(UnmanagedType.Interface), Out] out IOleInPlaceFrame ppFrame, [MarshalAs(UnmanagedType.Interface), Out] out IOleInPlaceUIWindow ppDoc, [In, MarshalAs(UnmanagedType.Struct), Out] ref tagRECT lprcPosRect, [In, MarshalAs(UnmanagedType.Struct), Out] ref tagRECT lprcClipRect, [In, MarshalAs(UnmanagedType.Struct), Out] ref tagOIFI lpFrameInfo)
         {
             ppFrame = null;
             ppDoc = null;
-            lprcPosRect = New;
-            lprcClipRect = New;
-
+            lprcPosRect = myRect;
+            lprcClipRect = myRect;
             return HRESULT.S_OK;
         }
 
@@ -167,10 +152,8 @@ namespace TechProg2
         [return: MarshalAs(UnmanagedType.I4)]
         public int OnPosRectChange([In, MarshalAs(UnmanagedType.Struct)] ref tagRECT lprcPosRect)
         {
-            lprcPosRect = New;
+            lprcPosRect = myRect;
             return HRESULT.S_OK;
         }
-
-       
     }
 }

@@ -53,17 +53,14 @@ namespace TechProg1
         {
             Func5( out function5String);
             MessageBox.Show(function5String);
-
-
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             var pDll = NativeMethods.LoadLibrary(Application.StartupPath + "\\unmlib2.dll");
             var FuncAddr = NativeMethods.GetProcAddress(pDll, "Func6");
-
-            var Func6 = (Func6Delegate)Marshal.GetDelegateForFunctionPointer(FuncAddr, typeof(Func6Delegate));
-
+            var Func6 = (Func6Delegate)Marshal.
+                GetDelegateForFunctionPointer(FuncAddr, typeof(Func6Delegate));
             Func6(out var str1);
             MessageBox.Show(str1);
             NativeMethods.FreeLibrary(pDll);
